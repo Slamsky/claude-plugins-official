@@ -2423,5 +2423,4 @@ def main():
     sys.exit(0)
 
 if __name__ == "__main__":
-    from codex_stop_output import run_hook
-    run_hook(main)
+    main()
